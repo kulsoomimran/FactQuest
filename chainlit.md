@@ -1,14 +1,19 @@
-# Welcome to Chainlit! 🚀🤖
+# FactQuest 📚🧠
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+**FactQuest** is a Chainlit-based chatbot powered by Gemini via the OpenAI Agents SDK.  
+It intelligently uses a `news_search` tool to fetch and display recent news (from NewsAPI) and also handles historical or factual queries directly.
 
-## Useful Links 🔗
+---
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+## 🚀 Features
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+- **📢 News Fetching** – Uses a tool to call NewsAPI and returns up-to-date headlines with links.
+- **🗓️ Historical Facts** – Provides factual answers (e.g., “When did Pakistan gain independence?”).
+- **💬 Streaming Replies** – Smooth, token-by-token streaming like ChatGPT via Chainlit.
+- **🛠️ Built with**:
+  - Gemini API (OpenAI-compatible chat)
+  - Chainlit for the UI
+  - Pydantic for structured tool inputs
+  - NewsAPI backend
 
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+---
