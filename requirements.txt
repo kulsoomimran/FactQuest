@@ -1,3 +1,6 @@
 chainlit
 requests
 python-dotenv
+openai-agents
+pydantic
+openai
